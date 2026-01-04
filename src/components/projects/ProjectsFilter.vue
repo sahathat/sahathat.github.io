@@ -9,6 +9,7 @@ export default {
 			type: Array,
 			default: () => [
 				'Web Application',
+				'Window Application',
 				'Machine Learning',
 				'Dashboard',
 				'Explorational Data Analysis',

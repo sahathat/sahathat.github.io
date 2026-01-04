@@ -19,6 +19,572 @@ const shuffle = (array) => {
 }
 
 const projectDetails = [
+        {
+        singleProjectHeader: {
+            singleProjectTitle: 'PTTLNG',
+            singleProjectDate: '6 May, 2025 - Present',
+            singleProjectTag: 'Web Application / Booking System / Recruitment system',
+        },
+        projectImages: [
+            {
+                id: 1,
+                title: 'PTTLNG - Calendar Lecturer booking page',
+                img: '',
+            },
+            {
+                id: 2,
+                title: 'PTTLNG Visitor - Calendar Walkin booking page',
+                img: '',
+            },
+            {
+                id: 3,
+                title: 'PTTLNG Visitor - Calendar PTTLNG employee booking page',
+                img: '',
+            },
+            {
+                id: 4,
+                title: 'PTTLNG Visitor - Email recieve booking infomation',
+                img: '',
+            },
+            {
+                id: 5,
+                title: 'PTTLNG Visitor - Excel booking infomation',
+                img: '',
+            },
+            {
+                id: 6,
+                title: 'PTTLNG Career - Application form for recruitmebnt page',
+                img: '',
+            },
+            {
+                id: 7,
+                title: 'PTTLNG Career - Recruitment data management page',
+                img: '',
+            },
+            {
+                id: 8,
+                title: 'PTTLNG Career - Email recieve application form',
+                img: '',
+            },
+            {
+                id: 9,
+                title: 'PTTLNG Career - PDF application form report',
+                img: '',
+            },
+            {
+                id: 10,
+                title: 'PTTLNG Career - Excel form report',
+                img: '',
+            },
+            {
+                id: 11,
+                title: 'PTTLNG - Condolence form page',
+                img: '',
+            }
+        ],
+        projectInfo: {
+            clientHeading: 'Project Info',
+            companyInfos: [
+                {
+                    id: 1,
+                    title: 'Company Name/University',
+                    details: 'Orange Technology so.ltd',
+                },
+                {
+                    id: 2,
+                    title: 'Responsibility',
+                    details: 'Fix Booking system, Recruitment system and clear customer requirement',
+                },
+                {
+                    id: 3,
+                    title: 'Website',
+                    details: 'https://www.pttlng.com/',
+                },
+                {
+                    id: 4,
+                    title: 'Visitor Rank',
+                    details: 'B+',
+                },
+                {
+                    id: 5,
+                    title: 'Career Rank',
+                    details: 'A',
+                },
+                {
+                    id: 6,
+                    title: 'Status',
+                    details: 'Career (Closed) / Visitor (In progress)',
+                }
+            ],
+            objectivesHeading: 'Objective',
+            objectivesDetails:
+                "Protect server and database from previous issue and develop new booking system for 4 type booking and visitor that can manage booking with calendar system and email notification to customer and admin. Fixed recruitment system with internship and applicant that can manage application form online and send email notification to applicant with company format and fix data on report in pdf and excel file.",
+            technologies: [
+                {
+                    title: 'Tools & Technologies',
+                    techs: [
+                        'C#/.Net .Net Framework',
+                        'MS SQL Server',
+                        'Radmin',
+                        'Entra ID',
+                        'Line OA',
+                        'IText7',
+                        'NPOI',
+                    ],
+                },
+            ],
+            projectDetailsHeading: 'Challenge',
+            projectDetails: [
+                {
+                    id: 1,
+                    details:
+                        'Use entra id for employee login system that can connect to company entra id server to authenticate user login with secure and safe for all employee in company. and must support outlook canlendar system to sync booking data with outlook calendar for easy manage booking schedule.',
+                },
+                {
+                    id: 2,
+                    details:
+                        'Used line OA show booking information to customer when booking is confirmed and remind booking schedule before booking date to reduce no show booking and increase customer satisfaction with easy access to booking information via line application.',
+                },
+                {
+                    id: 3,
+                    details:
+                        'Fix calendar booking system for support 4 type booking such as lecturer booking, walkin booking, pttlng employee booking and tour booking with calendar view that can see booking schedule in each month, week and day. The calendar system can add, edit and delete booking with validate booking date and time to avoid double booking and customize calendar by lecturer group and employee.',
+                },
+                {
+                    id: 4,
+                    details:
+                        'Created dashboard admin page that can manage all booking data in one place with calendar system to see booking schedule and status in each day. The dashboard must support filter booking data by date, type booking for easy manage booking information accordingly.',
+                },
+                {
+                    id: 5,
+                    details:
+                        'Managed applicant the mostly data with recruitment system that can create application form online for internship and applicant with validate form data before submit application. The system can send email notification to applicant when application is submitted successfully and notify admin when new application is received.',
+                },
+                {
+                    id: 6,
+                    details:
+                        'Provided position text on report system that can generate report in pdf for easily read.',
+                }
+            ]
+        }
+    },
+    {
+        singleProjectHeader: {
+            singleProjectTitle: 'TOA Multi - Track Player',
+            singleProjectDate: '18 April, 2025 - 10 January, 2026',
+            singleProjectTag: 'Window Application / Multimedia Player',
+        },
+        projectImages: [
+            {
+                id: 1,
+                title: 'TOA Multi - Track Player main program',
+                img: '',
+            },
+            {
+                id: 2,
+                title: 'TOA Multi - Track Player Timer page',
+                img: '',
+            },
+            {
+                id: 3,
+                title: 'TOA Multi - Track Player remote control page',
+                img: '',
+            },
+            {
+                id: 4,
+                title: 'TOA Multi - Track Player admin setting page',
+                img: '',
+            }
+        ],
+        projectInfo: {
+            clientHeading: 'Project Info',
+            companyInfos: [
+                {
+                    id: 1,
+                    title: 'Company Name/University',
+                    details: 'Orange Technology so.ltd',
+                },
+                {
+                    id: 2,
+                    title: 'Responsibility',
+                    details: 'Create Multi-track player for connect to Centralize server remote and clear customer requirement',
+                },
+                {
+                    id: 4,
+                    title: 'Rank',
+                    details: 'S',
+                },
+                {
+                    id: 5,
+                    title: 'Status',
+                    details: 'Closed',
+                }
+            ],
+            objectivesHeading: 'Objective',
+            objectivesDetails:
+                "To develop a desktop application for 8-channel multi-track audio playback that connects each device to a centralized server for remote control and management. The application will provide a user-friendly interface, support multiple audio formats, enable efficient playback and scheduling, and be suitable for commercial resale.",
+            technologies: [
+                {
+                    title: 'Tools & Technologies',
+                    techs: [
+                        'C#/.Net .Net Framework',
+                        'NAudio',
+                        'MP3Gain',
+                        'Web Socket',
+                        'Postman',
+                    ],
+                },
+            ],
+            projectDetailsHeading: 'Challenge',
+            projectDetails: [
+                {
+                    id: 1,
+                    details:
+                        'Play music in 8 channel with support audio file format mp3, wav at 44.1 kHz and can control volume, music mode such as loop and random in each channel with NAudio library. The program can set route audio to output device that connected to computer such as headphone, speaker and audio interface with customer requirement.',
+                },
+                {
+                    id: 2,
+                    details:
+                        'Fixed Timer system that can schedule play music in each channel with set time to start and stop music playback. The timer system can set multiple timers in each channel and manage timer list with edit, delete and add new timer features.',
+                },
+                {
+                    id: 3,
+                    details:
+                        'Make api to connect to centralize server that can send and receive command to control music playback in each channel such as play, pause, stop, next, previous and volume control, manage files in each playlist. The program can update status music playback to server in real-time and receive command from server to control music playback accordingly must consistency at all.',
+                },
+                {
+                    id: 4,
+                    details:
+                        'Upload playlist for play music must support file format mp3 and wav with validate file type and file size before add to playlist. The program can manage playlist with add, delete, edit and reorder music in playlist features.',
+                },
+                {
+                    id: 5,
+                    details:
+                        'Add Auto gain control feature that can normalize audio level in each track to consistent volume level using MP3Gain library. The auto gain control can set target volume level and apply to all music in playlist before playback to ensure optimal listening experience for all tracks.',
+                },
+                {
+                    id: 6,
+                    details:
+                        'Program installation that can setup program in computer with easy and fast installation process. The installer must include all necessary files and dependencies to run the program without additional configuration for all user program.',
+                }
+            ]
+        }
+    },
+    {
+        singleProjectHeader: {
+            singleProjectTitle: 'PAT - Report Pro',
+            singleProjectDate: '18 April, 2025 - Pesent',
+            singleProjectTag: 'Window Application / Mesuring Monitoring System',
+        },
+        projectImages: [
+            {
+                id: 1,
+                title: 'PAT - Report Pro main window',
+                img: '',
+            },
+            {
+                id: 2,
+                title: 'PAT - Report Pro report page',
+                img: '',
+            },
+            {
+                id: 3,
+                title: 'PAT - Report Pro report online preview page',
+                img: '',
+            },
+            {
+                id: 4,
+                title: 'PAT - Report Pro report portable preview page',
+                img: '',
+            },
+            {
+                id: 5,
+                title: 'PAT - Report Pro license key page',
+                img: '',
+            },
+            {
+                id: 6,
+                title: 'PAT - Report Pro Component page',
+                img: '',
+            },
+            {
+                id: 7,
+                title: 'PAT - Report Pro Measuring point page',
+                img: '',
+            },
+            {
+                id: 8,
+                title: 'PAT - Report Pro Techname page',
+                img: '',
+            }
+        ],
+        projectInfo: {
+            clientHeading: 'Project Info',
+            companyInfos: [
+                {
+                    id: 1,
+                    title: 'Company Name/University',
+                    details: 'Orange Technology so.ltd',
+                },
+                {
+                    id: 2,
+                    title: 'Responsibility',
+                    details: 'Create Monitoring application, Report system and clear customer requirement',
+                },
+                {
+                    id: 4,
+                    title: 'Rank',
+                    details: 'A',
+                },
+                {
+                    id: 5,
+                    title: 'Status',
+                    details: 'In progress',
+                }
+            ],
+            objectivesHeading: 'Objective',
+            objectivesDetails:
+                'To develop a desktop application for monitoring and measuring system in under SPM Instrument Program (Condmaster ruby), generating detailed reports in type online, airius and portable, and providing real-time data visualization in each data table. The application should offer a user-friendly interface, support various data formats, and facilitate efficient data management and analysis.',
+            technologies: [
+                {
+                    title: 'Tools & Technologies',
+                    techs: [
+                        'C#/.Net .Net Framework',
+                        'Condmaster Ruby SPM Instrument',
+                        'CES API',
+                        'IText7'
+                    ],
+                },
+            ],
+            projectDetailsHeading: 'Challenge',
+            projectDetails: [
+                {
+                    id: 1,
+                    details:
+                        'Implemented customizable program experience for any users by creating license key system that can manage license key with customer information to cennected to condmaster api and product version with expiration date to access the application features accordingly.',
+                },
+                {
+                    id: 2,
+                    details:
+                        'Developed report generation system that can create report in 3 type online, airius and portable with detail format that customer required. The report system can export report in pdf file and print out directly from the application with condmaster api.',
+                },
+                {
+                    id: 3,
+                    details:
+                        'Developed measuring monitoring system that can connect to SPM instrument condmaster ruby via CES API to get real-time data and display in each data table. The system can manage measuring point and techname with customer requirement and show data in grid view with sorting, filtering and searching features for easy data analysis.',
+                }
+            ]
+        }
+    },
+    {
+        singleProjectHeader: {
+            singleProjectTitle: 'Pokungpao (Pinklao)',
+            singleProjectDate: '24 March, 2025 - Present',
+            singleProjectTag: 'Web Application / Booking System / E-commerce',
+        },
+        projectImages: [
+            {
+                id: 1,
+                title: 'Pokungpao main website',
+                img: '',
+            },
+            {
+                id: 2,
+                title: 'Pokungpao booking page',
+                img: '',
+            },
+            {
+                id: 3,
+                title: 'Pokungpao select table page',
+                img: '',
+            },
+            {
+                id: 4,
+                title: 'Pokungpao payment page',
+                img: '',
+            },
+            {
+                id: 5,
+                title: 'Pokungpao backend table page',
+                img: '',
+            },
+            {
+                id: 6,
+                title: 'Pokungpao backend table booking detail page',
+                img: '',
+            },
+            {
+                id: 7,
+                title: 'Pokungpao backend custom table page',
+                img: '',
+            },
+            {
+                id: 8,
+                title: 'Pokungpao backend display image page',
+                img: '',
+            },
+            {
+                id: 9,
+                title: 'Pokungpao backend concert manage page',
+                img: '',
+            },
+        ],
+        projectInfo: {
+            clientHeading: 'Project Info',
+            companyInfos: [
+                {
+                    id: 1,
+                    title: 'Company Name/University',
+                    details: 'Orange Technology so.ltd',
+                },
+                {
+                    id: 2,
+                    title: 'Responsibility',
+                    details: 'Create Booking application and clear customer requirement',
+                },
+                {
+                    id: 3,
+                    title: 'Website',
+                    details: 'https://porpinklao.com/Home/Login',
+                },
+                {
+                    id: 4,
+                    title: 'Rank',
+                    details: 'A',
+                },
+                {
+                    id: 5,
+                    title: 'Status',
+                    details: 'Waiting',
+                }
+            ],
+            objectivesHeading: 'Objective',
+            objectivesDetails:
+                'To develop an online booking table position for concern pubbar and event booking system that enables users to reserve tables, participate in events, and track their reservations. The platform should provide a user-friendly interface, support various multimedia formats, and facilitate interaction between customers and restaurant staff.',
+            technologies: [
+                {
+                    title: 'Tools & Technologies',
+                    techs: [
+                        'C#/.Net (ASP.Net)',
+                        'MS SQL Server',
+                        'Chillpay Payment Gateway',
+                    ],
+                },
+            ],
+            projectDetailsHeading: 'Challenge',
+            projectDetails: [
+                {
+                    id: 1,
+                    details:
+                        'Implemented a fixed template layout for large-screen image display in the pub bar area, supported by a backend management page that allows administrators to upload and manage displayed content. The system supports customer payment display templates and sequential image playback with smooth transitions and configurable display durations to enhance the overall ambiance.',
+                },
+                {
+                    id: 2,
+                    details:
+                        'Customized table booking system featuring an interactive seat map that allows users to select and reserve specific table locations within the restaurant. The solution includes a fully responsive design to ensure optimal usability across all devices and screen sizes, real-time status updates for available and restricted tables visible to all registered users, and zone-based table filtering for each concert or event opening.',
+                },
+                {
+                    id: 3,
+                    details:
+                        'Creating table page that can check table status at realtime that can filter by date and any concert event and can see table at details.',
+                },
+                {
+                    id: 4,
+                    details:
+                        'Create payment system that updates payment status form chillpay payment gateway from pending to paid when customer has completed the payment process successfully.',
+                },
+            ]
+        }
+    },
+    {
+        singleProjectHeader: {
+            singleProjectTitle: 'Ilearning (GoFSi)',
+            singleProjectDate: '3 Marth, 2025 - 17 April, 2025 and 9 Sep, 2025',
+            singleProjectTag: 'Web Application / Course Online',
+        },
+        projectImages: [
+            {
+                id: 1,
+                title: 'Ilearn main website',
+                img: '',
+            },
+            {
+                id: 2,
+                title: 'Ilearn course page',
+                img: '',
+            },
+            {
+                id: 3,
+                title: 'Ilearn course overview page',
+                img: '',
+            },
+            {
+                id: 4,
+                title: 'Backend scoring system page',
+                img: '',
+            },
+            {
+                id: 5,
+                title: 'Backend survey result page',
+                img: '',
+            }
+        ],
+        projectInfo: {
+            clientHeading: 'Project Info',
+            companyInfos: [
+                {
+                    id: 1,
+                    title: 'Company Name/University',
+                    details: 'Orange Technology so.ltd',
+                },
+                {
+                    id: 2,
+                    title: 'Responsibility',
+                    details: 'Create Course Online application and clear customer requirement',
+                },
+                {
+                    id: 3,
+                    title: 'Website',
+                    details: 'https://ilearn.arm.orangestudio.club/Home/Index',
+                },
+                {
+                    id: 4,
+                    title: 'Rank',
+                    details: 'B+',
+                },
+                {
+                    id: 5,
+                    title: 'Status',
+                    details: 'Closed',
+                }
+            ],
+            objectivesHeading: 'Objective',
+            objectivesDetails:
+                'To develop an online learning platform that enables users to access educational content, participate in courses, and track their progress. The platform should provide a user-friendly interface, support various multimedia formats, and facilitate interaction between instructors and learners.',
+            technologies: [
+                {
+                    title: 'Tools & Technologies',
+                    techs: [
+                        'C#/.Net (ASP.Net)',
+                        'MS SQL Server',
+                    ],
+                },
+            ],
+            projectDetailsHeading: 'Challenge',
+            projectDetails: [
+                {
+                    id: 1,
+                    details:
+                        'Frontend: Creating chat page with real-time messaging using SignalR for instant communication between users and instructors. Implementing responsive design to ensure optimal user experience across various devices and screen sizes. Integrating multimedia content such as videos, quizzes, and interactive elements to enhance the learning experience. Developing a user-friendly interface for course navigation, progress tracking, and user profiles.',
+                },
+                {
+                    id: 2,
+                    details:
+                        'Backend: To Manage Scoring system to customer requirement and design database structure for efficient data storage and retrieval. Implementing Controller for seamless communication between frontend and backend pages. Ensuring data security and user authentication to protect sensitive information. Optimizing performance for handling a large number of concurrent users and course content delivery.',
+                },
+            ]
+        }
+    },
     {
         singleProjectHeader: {
             singleProjectTitle: 'Gofive Product',
@@ -69,7 +635,12 @@ const projectDetails = [
                     id: 2,
                     title: 'Responsibility',
                     details: 'Securities operation system, Backend development',
-                }
+                },
+                {
+                    id: 3,
+                    title: 'Rank',
+                    details: 'S',
+                },
             ],
             objectivesHeading: 'Objective',
             objectivesDetails:
@@ -204,7 +775,8 @@ const projectDetails = [
                     id: 4,
                     title: 'Github',
                     details: 'https://github.com/orgs/leafy-shop/repositories',
-                }, {
+                },
+                 {
                     id: 5,
                     title: 'Note',
                     details: 'This is senior projects portfolio use SIT D-day boost for showing and presenting archivements.',
@@ -300,7 +872,7 @@ const projectDetails = [
             {
                 id: 2,
                 title: 'Admin Issue Page',
-                img: require('@/assets/images/projects/2-ITHelpDesk-1.png')
+                img: 'https://ik.imagekit.io/iytkpg49r/Portfolio/Other/2-ITHelpDesk-1.png' //require('@/assets/images/projects/2-ITHelpDesk-1.png')
             },
             {
                 id: 3,

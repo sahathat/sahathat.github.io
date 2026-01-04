@@ -10,7 +10,7 @@ export default {
 			username: "sahathat",
 			repos: 0,
 			suffix: '',
-			experienceTitle: 'Years of experience (Month)',
+			experienceTitle: 'Years of experience (Year)',
 			githubTitle: 'Stars on GitHub',
 			feedbackTitle: 'Positive feedback',
 			projectsTitle: 'Projects completed',
@@ -63,7 +63,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="4"
+					:endAmount="1"
 					:duration="1"
 					:autoinit="true"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
@@ -98,7 +98,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="75"
+					:endAmount="90"
 					:duration="1"
 					suffix="%"
 					:autoinit="true"
@@ -116,7 +116,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="7"
+					:endAmount="11"
 					:duration="1"
 					:autoinit="true"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
